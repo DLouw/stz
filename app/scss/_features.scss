@@ -1,0 +1,44 @@
+.features-section {
+  position: relative;
+  background-color: black;
+//  background-image: url('../img/bg.jpg');
+//  background-size: cover;
+//  background-attachment: fixed;
+//  
+  padding: 5rem 0;
+  .featured-text {
+    padding: 2rem;
+    @media (min-width: 992px) {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid $primary;
+    }
+  }
+  .project-text {
+    padding: 3rem;
+    font-size: 90%;
+    @media (min-width: 992px) {
+      padding: 5rem;
+      hr {
+        border-color: $primary;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+  }
+  
+  .icon{
+    width: 50px;
+    opacity: 0.8;
+  }
+  .bg{
+    opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url('../img/jonkies.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+}

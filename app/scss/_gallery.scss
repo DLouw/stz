@@ -1,0 +1,85 @@
+.gallery-section {
+  padding: 5rem 0;
+  
+  //Hack line to remove shadows around slide when sliding
+  .slick-slide:focus { outline: none; }
+
+  .slide{
+    margin-bottom: 20px;
+  }
+
+  .item-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    .item-content{
+      width: 120px;
+      height: 120px;
+      margin: 5px;
+      border-radius: 1%;
+      transition: 0.2s all ease-in-out;
+      cursor: pointer;
+      background-size: cover;
+
+      &:hover{
+        border-radius: 3%;
+        transform: scale(1.05);
+        box-shadow: 5px 5px 46px -10px rgba(0,0,0,0.75);
+      }
+    }
+  }
+
+  @media(min-width: 768px){
+    .item-wrapper{
+      .item-content{
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+
+  .slick-dots {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      padding-left: 0;
+      margin: 0px;
+
+      list-style-type: none;
+
+          li {
+              margin: 0 0.25rem;
+          }
+
+          button {
+              width: 0.7rem;
+              height: 0.7rem;
+              padding: 0;
+              transition: 0.5s all ease-in-out;
+              border: 2px solid grey;
+              border-radius: 50%;
+              text-indent: -9999px;
+
+          }
+
+          li.slick-active button {
+        transform: scale(1.2);
+        background-color: grey;
+
+          }
+
+  }
+
+  .icon-wrap{
+    color: $primary;
+    p{
+      display: inline;
+    }
+  }
+    
+    .slick-arrow{
+        display: none;
+    }
+    
+  
+}

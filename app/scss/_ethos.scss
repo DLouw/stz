@@ -1,0 +1,29 @@
+.ethos-section {
+  position: relative;
+  background-color: black;
+//  background-image: url('../img/bg.jpg');
+//  background-size: cover;
+//  background-attachment: fixed;
+//  
+  padding: 10rem 0;
+  
+  .bg{
+opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url('../img/jonkies.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+  
+  .shout{
+    opacity: 0.5;
+  }
+  
+  .exclamate{
+    color: $primary;
+  }
+}

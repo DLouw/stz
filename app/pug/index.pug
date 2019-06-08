@@ -1,0 +1,270 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Bespoke Mountain Bike Trail Building
+    // Bootstrap core CSS
+    link(href='vendor/bootstrap/bootstrap.min.css', rel='stylesheet')
+    // Custom fonts for this template
+    link(href='vendor/font-awesome/css/all.css', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Varela+Round', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', rel='stylesheet')
+    link(href='vendor/slick-carousel/slick.css', rel="stylesheet")
+    link(href='vendor/slick-carousel/slick-theme.css', rel="stylesheet")
+    link(href='vendor/slick-lightbox/slick-lightbox.css', rel="stylesheet")
+    link(rel="icon" type="image/png" href="img/favicon.png")
+    // Custom styles for this template
+    link(href='css/grayscale.min.css', rel='stylesheet')
+  body#page-top.noscroll(onload="loaded()")
+    // Navigation
+    nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+      .container
+        a.navbar-brand.js-scroll-trigger(href='#page-top')
+            img(src="img/logo_row_light.png")
+        button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+          i.fas.fa-bars
+        #navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#about') About
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#projects') Design
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#ethos') Ethos
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#gallery') Projects
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#signup') Contact
+    // Header
+    header.masthead
+      .container.logo-live-wrapper.d-flex.h-100.align-items-center.justify-content-center
+        div.loader
+        div.text-center
+          img.logo-live-main(src="img/logo_live_main.png")
+          img.logo-live-text(src="img/logo_live_text.png")
+          img.logo-live-mech(src="img/logo_live_mech.png")
+          //h2.text-white-50.mx-auto.mt-2.mb-5 A free, responsive, one page Bootstrap theme created by Start Bootstrap.
+          //a.btn.btn-primary.js-scroll-trigger(href='#about') Get Started
+    // About Section
+    section#about.about-section.text-center
+      .container
+        .row
+          .col-lg-8.mx-auto
+            h2.text-white.mb-4 
+              |Trails designed by 7 x World Champion <br/>
+              | Conrad Stoltz
+            p.text-white-50
+              | With an illustrious carreer spanning over 20 years, an athlete has experineced the full spectrum of natural and artificial mountainbike puzzles.   Conrad Stoltz applies this experience in leading a highly skilled team of trail builders. Stoltz Trails is deploys their signature style of creativity blended with old school manual labour to sculpt some of the most captivating trails in the world.
+        .row.align-items-center
+          .col-5
+            img.icon(src="img/epic.png")
+          .col-2
+            h1.text-light |
+          .col-5
+            a.text-light.my-auto.js-scroll-trigger(href="#gallery")
+              span.mr-2 Projects
+              i.fa.fa-chevron-right
+        //img.img-fluid(src='img/ipad.png', alt='')
+    //Flow section
+    section#flow.flow-section
+      .bg
+      .container.shout
+        .row.align-items-center
+          .col-md-6.text-center.p-5
+            img.img-fluid(src="img/flowL.png")
+          .col-md-6.text-left.mt-3.p-3
+            h4.exclamate.text-left {noun}
+            p.text-light.m-3 The euphoric sense experienced when difficulty is in perfect harmony with ability.
+            p.text-light.m-3 The intangible quality of a trail where speed is maintainted without needing to break nor pedal.
+    ///section#features.features-section
+      //.container
+        .row
+          .col-md-4.text-center
+            img.icon(src="img/mechanism 2.png")
+            h3.mt-3 STANDARDS
+            p.text-muted Strict adhesion to IMBA trail design and construction standards
+            a(data-toggle="collapse", href="#readMore")
+              span read more
+              i.fa.fa-angle-right.ml-2
+            ul#readMore.collapse.text-left.mt-2
+              li Sustainable trail grades
+              li Adequate sight lines
+              li Sufficient drainage
+              li 5% Outslopes
+              li The "Half Rule"
+              li Erosion armouring
+              li Flowing corner radii
+          .col-md-4.text-center
+            img.icon(src="img/mechanism 2.png")
+            h3.mt-3 SUSTAINABILITY
+            p.text-muted We don't simply make trails, we build legacies.
+            a(data-toggle="collapse", href="#readMore")
+              span read more
+              i.fa.fa-angle-right.ml-2
+            div#readMore.collapse.mt-2
+              p We employ both hands-on and machine methods of after-rain compaction. Furthermore, only quality mineral soil is used on our trails. We do not take shortcuts by filling with foliage, compost, mud or sand.
+          .col-md-4.text-center
+            img.icon(src="img/mechanism 2.png")
+            h3.mt-3 INTEGRATION
+            p.text-muted Passionate about trail aesthetics and natural integration
+            a(data-toggle="collapse", href="#readMore")
+              span read more
+              i.fa.fa-angle-right.ml-2
+            div#readMore.collapse.mt-2
+              p First and foremost- Stoltz Trails does not build trails at the cost of the natural landscape. Period. We go to great lengths to plan and execute designs that flow with the natural environment. This further enhances rider experience and instills a simbiotic relationship between rider and environment.
+    // Ethos Section
+    //section#ethos.ethos-section.bg-black.text-light.pb-0
+      .container
+        // Featured Project Row
+        .row.align-items-center.no-gutters
+          .col-xl-8.col-lg-7
+            img.img-fluid.mb-3.mb-lg-0(src='img/thefence.jpg', alt='')
+          .col-xl-4.col-lg-5
+            .featured-text.text-center.text-lg-left
+              h4 Ethos
+              p.text-muted.mb-0
+                | Stoltz Trails works with, not against the natural elements. We seek to thrill riders with the challenge of negotiating technical terrain, while at the same time experiencing a deep connection to nature and their environment.
+    //Projects Section
+    section#projects.projects-section.bg-black.text-light
+      .container
+        // Project One Row
+        .row.justify-content-center.no-gutters.mb-5.mb-lg-0.align-items-center
+          .col-lg-6
+            img.img-fluid(src='img/demo-image-01.jpg', alt='')
+          .col-lg-6
+            .bg-black.text-center.h-100.project
+              .d-flex.h-100
+                .project-text.w-100.my-auto.text-center.text-lg-left
+                  h4.text-white Standards
+                  p.mb-0.text-white-50
+                    | Strict adhesion to IMBA trail design and construction standards
+                  hr.d-lg-block.ml-lg-0
+                  ul#readMore.text-left.mt-2
+                    li Sustainable trail grades
+                    li Adequate sight lines
+                    li Sufficient drainage
+                    li 5% Outslopes
+                    li The "Half Rule"
+                    li Erosion armouring
+                    li Flowing corner radii
+        // Project Two Row
+        .row.justify-content-center.no-gutters.align-items-center
+          .col-lg-6
+            img.img-fluid(src='img/demo-image-02.jpg', alt='')
+          .col-lg-6.order-lg-first
+            .bg-black.text-center.h-100.project
+              .d-flex.h-100
+                .project-text.w-100.my-auto.text-center.text-lg-right
+                  h4.text-white Sustainability
+                  p.mb-0.text-white-50
+                    | We don't simply make trails, we build legacies.
+                  hr.d-lg-block.mr-lg-0
+                  p We employ both hands-on and machine compaction. Only quality mineral soil is used on our trails. No foliage, compost, mud or sand on these trails.
+        .row.justify-content-center.no-gutters.mb-lg-0.align-items-center
+          .col-lg-6
+            img.img-fluid(src='img/demo-image-01.jpg', alt='')
+          .col-lg-6
+            .bg-black.text-center.h-100.project
+              .d-flex.h-100
+                .project-text.w-100.my-auto.text-center.text-lg-left
+                  h4.text-white Integration
+                  p.mb-0.text-white-50
+                    | Strict adhesion to IMBA trail design and construction standards
+                  hr.d-lg-block.ml-lg-0
+                  p First and foremost- Stoltz Trails does not build trails at the cost of the natural landscape. Period. We go to great lengths to plan and execute designs that flow with the natural environment. This further enhances rider experience and instills a simbiotic relationship between rider and environment.
+    //Ethos section
+    section#ethos.ethos-section
+      .bg
+      .container.shout
+        .row.align-items-center
+          .col-md-6.text-center.mb-3
+            img.img-fluid(src="img/ethos.png")
+          .col-md-6.text-center.mt-3
+            p.text-light Stoltz Trails works tirelessly to create features that accent a location's natural contours and vistas. We design to thrill riders with technical challenges without severing their connection to nature.
+    //Gallery Section
+    section#gallery.gallery-section.bg-black
+      .container
+        .slider
+          .slide
+            .item-wrapper
+              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+          .slide
+            .item-wrapper
+              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+          .slide
+            .item-wrapper
+              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+          .slide
+            .item-wrapper
+              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+          .slide
+            .item-wrapper
+              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+          .slide
+            .item-wrapper
+              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+          .slide
+            .item-wrapper
+              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+          .slide
+            .item-wrapper
+              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+          .slide
+            .item-wrapper
+              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+        .icon-wrap.text-center
+          i.fas.fa-hand-point-up
+          p (swipe)
+    // Signup Section
+    section#signup.signup-section
+      .container
+        .row
+          .col-md-10.col-lg-8.mx-auto.text-center
+            //i.far.fa-mountains.fa-2x.mb-2.text-white
+            h2#alert-box.text-white.mb-5 Request a consultation
+            form#contact-form.form-inline.d-flex
+              input#inputEmail.form-control.flex-fill.mr-0.mr-sm-2.mb-3.mb-sm-0(type='email', placeholder='Enter email address...', name="email")
+              button.btn.btn-primary.mx-auto(type='submit') Request
+    // Contact Section
+    section.contact-section.bg-black
+      .container
+        .row
+          .col-md-4.mb-3.mb-md-0.text-center
+            i.fas.fa-mountain.text-primary.mb-2
+            h4.text-uppercase.m-0.text-light Address
+            hr.my-4
+            .small.text-muted Stellenbosch, Western Cape
+          .col-md-4.mb-3.mb-md-0.text-center
+            i.fas.fa-envelope.text-primary.mb-2
+            h4.text-uppercase.m-0.text-light Email
+            hr.my-4
+            .small.text-black-50
+              a.text-muted(href='#') info@stoltztrails.com
+          .col-md-4.mb-3.mb-md-0.text-center
+            i.fas.fa-mobile-alt.text-primary.mb-2
+            h4.text-uppercase.m-0.text-light Phone
+            hr.my-4
+            .small.text-muted +27 (84) 440-8174
+        .social.d-flex.justify-content-center
+          a.mx-2(href='https://twitter.com/conradstoltz', target="_blanc")
+            i.fab.fa-twitter
+          a.mx-2(href='https://web.facebook.com/stoltztrails/', target="_blanc")
+            i.fab.fa-facebook-f
+          a.mx-2(href='https://www.instagram.com/stoltztrails/', target="_blanc")
+            i.fab.fa-instagram
+    // Footer
+    footer.bg-black.small.text-center.text-white-50
+      .container
+        | Created by Tourmalet Media 2019
+    // Bootstrap core JavaScript
+    script(src='vendor/jquery/jquery.min.js')
+    script(src='vendor/bootstrap/bootstrap.min.js')
+    // Plugin JavaScript
+    script(src='vendor/jquery-easing/jquery.easing.min.js')
+    script(src="vendor/slick-carousel/slick.min.js")
+    script(src="vendor/slick-lightbox/slick-lightbox.min.js")
+    // Custom scripts for this template
+    script(src='js/grayscale.min.js')
