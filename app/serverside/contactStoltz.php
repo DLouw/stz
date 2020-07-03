@@ -20,7 +20,7 @@ $fromName = 'Stoltz Trails Online';
 
 // an email address that will receive the email with the output of the form
 $sendToEmail = 'conradstoltz@me.com';
-$sendToName = 'Dehan Louw';
+$sendToName = 'Conrad Stoltz';
 
 // subject of the email
 $subject = 'Testing smtp';

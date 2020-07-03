@@ -57,7 +57,7 @@ html(lang='en')
               |Trails designed by 7 x World Champion <br/>
               | Conrad Stoltz
             p.text-white-50
-              | With an illustrious carreer spanning over 20 years, an athlete has experineced the full spectrum of natural and artificial mountainbike puzzles.   Conrad Stoltz applies this experience in leading a highly skilled team of trail builders. Stoltz Trails is deploys their signature style of creativity blended with old school manual labour to sculpt some of the most captivating trails in the world.
+              | With an illustrious career spanning over 20 years, an athlete has experienced the full spectrum of natural and artificial mountain bike puzzles.   Conrad Stoltz applies this experience in leading a highly skilled team of trail builders. Stoltz Trails is deploys their signature style of creativity blended with old school manual labor to sculpt some of the most captivating trails in the world.
         .row.align-items-center
           .col-5
             img.icon(src="img/epic.png")
@@ -78,7 +78,7 @@ html(lang='en')
           .col-md-6.text-left.mt-3.p-3
             h4.exclamate.text-left {noun}
             p.text-light.m-3 The euphoric sense experienced when difficulty is in perfect harmony with ability.
-            p.text-light.m-3 The intangible quality of a trail where speed is maintainted without needing to break nor pedal.
+            p.text-light.m-3 The intangible quality of a trail where speed is maintained without needing to break nor pedal.
     ///section#features.features-section
       //.container
         .row
@@ -148,7 +148,7 @@ html(lang='en')
                     li Sufficient drainage
                     li 5% Outslopes
                     li The "Half Rule"
-                    li Erosion armouring
+                    li Erosion armoring
                     li Flowing corner radii
         // Project Two Row
         .row.justify-content-center.no-gutters.align-items-center
@@ -174,7 +174,7 @@ html(lang='en')
                   p.mb-0.text-white-50
                     | Strict adhesion to IMBA trail design and construction standards
                   hr.d-lg-block.ml-lg-0
-                  p First and foremost- Stoltz Trails does not build trails at the cost of the natural landscape. Period. We go to great lengths to plan and execute designs that flow with the natural environment. This further enhances rider experience and instills a simbiotic relationship between rider and environment.
+                  p First and foremost- Stoltz Trails does not build trails at the cost of the natural landscape. Period. We go to great lengths to plan and execute designs that flow with the natural environment. This further enhances rider experience and instills a symbiotic relationship between rider and environment.
     //Ethos section
     section#ethos.ethos-section
       .bg
@@ -188,33 +188,12 @@ html(lang='en')
     section#gallery.gallery-section.bg-black
       .container
         .slider
-          .slide
-            .item-wrapper
-              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
-          .slide
-            .item-wrapper
-              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
-          .slide
-            .item-wrapper
-              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
-          .slide
-            .item-wrapper
-              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
-          .slide
-            .item-wrapper
-              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
-          .slide
-            .item-wrapper
-              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
-          .slide
-            .item-wrapper
-              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
-          .slide
-            .item-wrapper
-              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
-          .slide
-            .item-wrapper
-              a.item-content(href='img/trail1.jpg', data-caption="La Motte Wine Farm trail")
+          - var i = 1
+          while i < 9
+            .slide
+              .item-wrapper
+                a.item-content(href='img/gallery/'+ i +'.jpg')
+            - i++
         .icon-wrap.text-center
           i.fas.fa-hand-point-up
           p (swipe)
@@ -258,7 +237,7 @@ html(lang='en')
     // Footer
     footer.bg-black.small.text-center.text-white-50
       .container
-        | Created by Tourmalet Media 2019
+        a(href="https://www.synapse.ltd") Created by Synapse Digital Business
     // Bootstrap core JavaScript
     script(src='vendor/jquery/jquery.min.js')
     script(src='vendor/bootstrap/bootstrap.min.js')

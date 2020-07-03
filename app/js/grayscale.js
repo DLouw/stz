@@ -57,21 +57,20 @@ $(document).ready(function(){
     arrows: false,
     dots: true,
     infinite: true,
-    slidesPerRow: 3,
+    slidesPerRow: 2,
     rows: 2,
     responsive: [
     {
       breakpoint: 480,
       settings: {
         slidesPerRow: 2,
-        rows: 3,
+        rows: 2,
       }
     }]
   });
   
  $('.slider').slickLightbox({
-    itemSelector: '> div > div > div > div > .slide > .item-wrapper > .item-content',
-    caption: 'caption'
+    itemSelector: '> div > div > div > div > .slide > .item-wrapper > .item-content'
 });
   
   //Contact from submission
